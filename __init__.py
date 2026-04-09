@@ -1,4 +1,3 @@
-from .rule_based import detect_rule_based
-from .ml_model import LogAnomalyModel
+from .alert_service import send_alert
 
-__all__ = ["detect_rule_based", "LogAnomalyModel"]
+__all__ = ["send_alert"]
